@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.contaner{
+    width: 100%;
+    height: 100%;
+    background-image: url("../Image/BG/SignIn-UPBG.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    height: 550px;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.342);
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px; width: 50px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.096);
+    box-shadow: inset 0px 0px 10px 0px rgba(255, 255, 255, 0.466);
+    color: white;
+    border: 1px solid white;
+    position: absolute;
+    border-top-left-radius: 20px;
+    top: 0;
+    cursor: pointer;
+}
+
+.back i{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.back:hover i{
+    scale: 1.5;
+}
+
+h1{
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+    margin-top: 60px;
+    color: white;
+}
+
+form{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+input[type="text"],input[type="password"]{
+    width: 70%;
+    padding: 20px 10px;
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.37);
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+input[type="submit"]{
+    width: 70%;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg,rgb(114, 112, 196)50%,rgb(66, 63, 247)50%);
+    background-size: 200%;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+input[type="submit"]:hover{
+    scale: 1.05;
+    background-position: right;
+}
+
+::placeholder{
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.mid{
+    height: 80px;
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.rem-for{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.rem{
+    width: 130px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.for a{
+    color: rgb(222, 220, 243);
+}
+
+.account{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.account a{
+    color: rgb(95, 82, 241);
+}
