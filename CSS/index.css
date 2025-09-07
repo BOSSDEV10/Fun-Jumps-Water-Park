@@ -25,9 +25,9 @@ body{
 }
 
 .main-box{
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     /* Change Scroller Type */
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
     height: 100vh;
 }
 
@@ -114,4 +114,5 @@ iframe{
     background-image: linear-gradient(rgba(0, 26, 255, 1),rgba(191, 56, 255, 1));
     border-radius: 20px;
     cursor: pointer;
+
 }
